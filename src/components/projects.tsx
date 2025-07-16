@@ -5,8 +5,8 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { ExternalLink, Github } from "lucide-react"
-import { useTheme } from "../theme-provider"
-import { useAudio } from "../audio-provider"
+import { useTheme } from "./theme-provider"
+import { useAudio } from "./audio-provider"
 
 export function Projects() {
   const { theme } = useTheme()

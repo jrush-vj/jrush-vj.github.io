@@ -3,7 +3,7 @@
 import { motion } from "framer-motion"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { useTheme } from "../theme-provider"
+import { useTheme } from "./theme-provider"
 import { Code, Palette, Zap } from "lucide-react"
 
 export function About() {

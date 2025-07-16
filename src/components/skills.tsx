@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion"
 import { Card, CardContent } from "@/components/ui/card"
-import { useTheme } from "../theme-provider"
+import { useTheme } from "./theme-provider"
 
 export function Skills() {
   const { theme } = useTheme()

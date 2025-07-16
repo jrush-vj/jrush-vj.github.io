@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion"
 import { Card, CardContent } from "@/components/ui/card"
-import { useTheme } from "../theme-provider"
+import { useTheme } from "./theme-provider"
 import { Camera, Music, Gamepad2, Book, Plane, Coffee } from "lucide-react"
 
 export function Interests() {

@@ -5,8 +5,8 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
-import { useTheme } from "../theme-provider"
-import { useAudio } from "../audio-provider"
+import { useTheme } from "./theme-provider"
+import { useAudio } from "./audio-provider"
 import { Mail, Phone, MapPin, Send } from "lucide-react"
 
 export function Contact() {

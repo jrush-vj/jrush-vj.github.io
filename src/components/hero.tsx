@@ -3,8 +3,8 @@
 import { motion } from "framer-motion"
 import { ChevronDown, Github, Linkedin, Mail } from "lucide-react"
 import { Button } from "@/components/ui/button"
-import { useTheme } from "../theme-provider"
-import { useAudio } from "../audio-provider"
+import { useTheme } from "./theme-provider"
+import { useAudio } from "./audio-provider"
 
 export function Hero() {
   const { theme } = useTheme()
